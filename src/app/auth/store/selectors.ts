@@ -1,6 +1,6 @@
 
 import { createSelector } from "@ngrx/store";
-import { AppStateInterface } from "src/app/shared/types/appState.interface";
+import { AppStateInterface } from "../../shared/types/appState.interface";
 import { AuthStateInterface } from "../types/authState.interface";
 
 /**Selectors are pure functions used for obtaining slices of store state. */
