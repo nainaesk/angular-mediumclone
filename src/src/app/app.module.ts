@@ -9,16 +9,18 @@ import { AppComponent } from './app.component';
 import { AuthModule } from './auth/auth.module';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [
+    AppComponent
+  ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AuthModule,
     StoreModule.forRoot({}),
     StoreDevtoolsModule.instrument(), // For Dev state tools
-    AppRoutingModule,
+    AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
